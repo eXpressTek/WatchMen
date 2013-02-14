@@ -18,7 +18,9 @@
     "ejs": "0.7.x",
     "express": "2.5.x",
     "redis": "0.7.x",
-    "moment": "1.7.x"
+    "moment": "1.7.x",
+    "raw-socket": "1.0.x",
+    "net-ping": "1.0.x"
   },
   "devDependencies": {
     "assert": "0.4.x",

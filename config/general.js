@@ -1,9 +1,9 @@
 module.exports = {
 	'notifications' : {
 		enabled: false, //if disabled, no notifications will be sent
-		to: ['ivan@iloire.com'], //default notification list if no alert_to is specified for host or url
+		to: ['dev-test@eXpressTek.us'], //default notification list if no alert_to is specified for host or url
 		postmark : {
-			from: 'ivan@iloire.com',
+			from: 'dev-test@eXpressTek.us',
 			api_key : 'your-postmark-key-here'
 		}
 	}
