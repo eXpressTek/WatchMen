@@ -24,6 +24,7 @@ Watchmen depends on the following modules:
 - [express](https://github.com/visionmedia/express)
 - [moment](http://momentjs.com/)
 - [node_redis](https://github.com/mranney/node_redis)  (if you are using redis storage)
+- [net-ping](https://bitbucket.org/stephenwvickers/node-net-ping)  (if you are using icmp)
 
 Make sure you install those dependencies:
 
@@ -200,9 +201,9 @@ watchmen.on('service_error', function(service, state){
 
 ## Run watchmen
 
-### Run the monitor server
+### Run the monitor server (*sudo required to open the port required for icmp..)
 
-    $ node server.js
+    $ sudo node server.js
 
 or more probably you would want to use **forever** to run it in the background
 
